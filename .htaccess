@@ -1,0 +1,37 @@
+#Configurations
+Options -Indexes
+RewriteEngine On
+
+#Error Documents
+#ErrorDocument 403 https://orcicorn.com/bf1
+#ErrorDocument 404 https://orcicorn.com/bf1
+
+#Protected Directories
+RewriteRule ^(application/) - [F,L,NC]
+RewriteRule ^(assets/css/less) - [F,L,NC]
+
+#Everything Redirects to index.html unless it exists
+#RewriteBase /
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule .* /index.html [L,R=302]
+
+#Outbound compression
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+
+#Cache Images & Stylesheets for 1 month
+#<filesMatch "\.(js|css|jpg|png|jpeg|gif|ico|svg)$">
+#    Header set Cache-Control "max-age=2628000, public"
+#</filesMatch>
+
+#Cache PHP/HTML/XML documents for 1 hour
+#<filesMatch "\.(php|htm|html|xml)$">
+#    Header set Cache-Control "max-age=7200, public"
+#</filesMatch>
