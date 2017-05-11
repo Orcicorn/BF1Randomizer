@@ -32,6 +32,7 @@ AddOutputFilterByType DEFLATE application/x-javascript
 #</filesMatch>
 
 #Cache PHP/HTML/XML documents for 1 hour
-#<filesMatch "\.(php|htm|html|xml)$">
-#    Header set Cache-Control "max-age=7200, public"
-#</filesMatch>
+<filesMatch "\.(php|htm|html|xml)$">
+    #Header set Cache-Control "max-age=7200, public"
+    Header set Cache-Control "max-age=1, public"
+</filesMatch>
