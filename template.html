@@ -10,16 +10,50 @@
         <link rel="stylesheet" href="assets/css/style.css" />
     </head>
     <body>
-        <div class="container">
-            <!--<div id="class" class="row">
-                <div class="col-xs-3">
-                    <div id="classicon" class="icon class assault"></div>
+        <div id="meta">
+            <h1>Random Battlefield 1 Loadouts</h1>
+            <p>
+                Tired of playing the same old kit over and over because you're comfortable with it?
+                Mix it up a little with randomized classes, weapons, gadgets and grenades. <em>Revitalize
+                your Battlefield 1 experience.</em>.
+            </p>
+        </div>
+        <div id="popupclass" class="popup">
+            <div class="container">
+                <h2>Class Selection</h2>
+                <div class="row">
+                    <div id="popupclass-as" class="col-xs-12">
+                        <div class="icon class assault"></div>
+                        <span>Assault</span>
+                    </div>
                 </div>
-                <div id="classname" class="col-xs-9">ASSAULT</div>
-                <p class="col-xs-12 summary">
-                    Tap on any item below to randomly pick a replacement or use the refresh loadout button to build an entirely new kit
-                </p>
-            </div> -->
+                <div class="row">
+                    <div id="popupclass-me" class="col-xs-12">
+                        <div class="icon class assault"></div>
+                        <span>Medic</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="popupclass-sc" class="col-xs-12">
+                        <div class="icon class assault"></div>
+                        <span>Scout</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="popupclass-su" class="col-xs-12">
+                        <div class="icon class assault"></div>
+                        <span>Support</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="popupclass-rnd" class="col-xs-12">
+                        <div class="icon class assault"></div>
+                        <span>Random</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
             <div class="row">
                 <div id="header" class="col-xs-12">
                     <div id="class">
@@ -33,7 +67,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 ">
-                    <div class="box">
+                    <div id="primary" class="box">
                         <div id="pricon" class="icon weapon test1"></div>
                         <span id="prname">M1909 Benet-Mercie Telescopic</span>
                     </div>
@@ -41,13 +75,13 @@
             </div>
             <div class="row">
                 <div class="col-xs-6 dualbox">
-                    <div class="box">
+                    <div id="secondary" class="box">
                         <div id="scicon" class="icon weapon test2"></div>
                         <span id="scname">Repetierpistole M1912</span>
                     </div>
                 </div>
                 <div class="col-xs-6 dualbox">
-                    <div class="box">
+                    <div id="grenade" class="box">
                         <div id="gricon" class="icon weapon test3"></div>
                         <span id="grname">Light Anti-Tank Grenade</span>
                     </div>
@@ -55,13 +89,13 @@
             </div>
             <div class="row">
                 <div class="col-xs-6 dualbox">
-                    <div class="box">
+                    <div id="gadget1" class="box">
                         <div id="g1icon" class="icon weapon test4"></div>
                         <span id="g1name">Rifle Grenade - SMK</span>
                     </div>
                 </div>
                 <div class="col-xs-6 dualbox">
-                    <div class="box">
+                    <div id="gadget2" class="box">
                         <div id="g2icon" class="icon weapon test5"></div>
                         <span id="g2name">Anti-Tank Grenade</span>
                     </div>
