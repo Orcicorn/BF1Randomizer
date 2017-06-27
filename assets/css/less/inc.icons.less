@@ -1,0 +1,155 @@
+/* All Icons */
+.icon {
+    background: url(@spriteIcons) top left no-repeat;
+    display: block;
+}
+
+/* Icon Sizes --------------------------------------------------------------- */
+.icon.meta {
+    width: 16px;
+    height: 12px;
+    margin: -0.75em 0 -50px 0.15em;
+    float: left;
+    z-index: 10;
+    opacity: 0.8;
+    &.unlock { width: 12px;}
+}
+.icon.class {
+    width: 48px;
+    height: 48px;
+}
+.icon.weapon {
+    z-index: 1;
+    opacity: 0.8;
+    margin: 0 auto;
+    height: 48px;
+    &.primary {
+        width: 250px;
+    }
+    &.secondary, &.grenade, &.gadget, &.melee {
+        width: 78px;
+    }
+}
+
+/* Locks/Flags -------------------------------------------------------------- */
+.meta.base { width: 0; height: 0;}
+.meta.unlock { opacity: 0.5; background-position: 0 0; }
+.meta.tsnp { background-position: -12px 0; }
+
+/* Classes ------------------------------------------------------------------ */
+.assault { background-position: 0px -12px; }
+.medic { background-position: -48px -12px;}
+.scout { background-position: -96px -12px;}
+.support { background-position: -144px -12px;}
+.random { background-position: -192px -12px;}
+
+/* Primary Weapons ---------------------------------------------------------- */
+.p-10a { background-position: 0px -448px; }
+.p-m97 { background-position: -250px -448px; }
+.p-mp18 { background-position: -500px -448px; }
+.p-automatico { background-position: -750px -448px; }
+.p-12g { background-position: -1000px -448px; }
+.p-hellriegel { background-position: 0 -496px; }
+.p-sjogren { background-position: -250px -496px; }
+.p-ribeyrolles { background-position: -500px -496px; }
+.p-cei { background-position: -750px -496px; }
+.p-m1916 { background-position: -1000px -496px; }
+.p-m1907 { background-position: 0px -544px; }
+.p-mondragon { background-position: -250px -544px; }
+.p-autoloading { background-position: -500px -544px; }
+.p-1906 { background-position: -750px -544px; }
+.p-rsc1917 { background-position: -1000px -544px; }
+.p-lewis { background-position: 0px -592px; }
+.p-benet { background-position: -250px -592px; }
+.p-madsen { background-position: -500px -592px; }
+.p-mg15 { background-position: -750px -592px; }
+.p-bar { background-position: -1000px -592px; }
+.p-huot { background-position: 0 -640px; }
+.p-chauchat { background-position: -250px -640px; }
+.p-1895 { background-position: -500px -640px; }
+.p-gewehr98 { background-position: -750px -640px; }
+.p-smle { background-position: -1000px -640px; }
+.p-gewehr95 { background-position: 0px -688px; }
+.p-m1903 { background-position: -250px -688px; }
+.p-martini { background-position: -500px -688px; }
+.p-lebel { background-position: -750px -688px; }
+
+/* Secondary Weapons -------------------------------------------------------- */
+.s-m1911 { background-position: 0px -109px; }
+.s-p08 { background-position: -78px -109px; }
+.s-mle1903 { background-position: -156px -109px; }
+.s-no3revolver { background-position: -234px -109px; }
+.s-c93 { background-position: -312px -109px; }
+.s-kolibri { background-position: -390px -109px; }
+.s-gasser { background-position: -468px -109px; }
+.s-1903 { background-position: -546px -109px; }
+.s-howdah { background-position: -624px -109px; }
+.s-auto { background-position: -702px -109px; }
+.s-m1914 { background-position: -780px -109px; }
+.s-c96 { background-position: -858px -109px; }
+.s-bulldog { background-position: -936px -109px; }
+.s-modello { background-position: -1014px -109px; }
+.s-m1912 { background-position: -1092px -109px; }
+.s-bodeo { background-position: -1170px -109px; }
+.s-frommer { background-position: 0px -157px; }
+.s-mars { background-position: -78px -157px; }
+
+/* Grenades ----------------------------------------------------------------- */
+.g-frag { background-position: 0 -60px;}
+.g-gas { background-position: -78px -60px;}
+.g-impact { background-position: -156px -60px;}
+.g-inc { background-position: -234px -60px; }
+.g-mini { background-position: -312px -60px; }
+.g-smoke { background-position: -390px -60px; }
+.g-at { background-position: -468px -60px; }
+
+/* Gadgets ------------------------------------------------------------------ */
+.ga-dynamite { background-position: 0 -206px; }
+.ga-atgrenade { background-position: -78px -206px; }
+.ga-mine { background-position: -156px -206px; }
+.ga-rocket { background-position: -234px -206px; }
+.ga-syringe { background-position: -312px -206px; }
+.ga-medcrate { background-position: -390px -206px; }
+.ga-medpouch { background-position: -468px -206px; }
+.ga-riflefg { background-position: -546px -206px; }
+.ga-riflesmk { background-position: -624px -206px; }
+.ga-riflehe { background-position: -702px -206px; }
+.ga-ammocrate { background-position: -780px -206px; }
+.ga-ammopouch { background-position: -858px -206px; }
+.ga-mortarair { background-position: -936px -206px; }
+.ga-mortarhe { background-position: -1014px -206px; }
+.ga-repair { background-position: -1092px -206px; }
+.ga-limpet { background-position: -1170px -206px; }
+.ga-crossbow { background-position: 0 -254px; }
+.ga-flarespot { background-position: -78px -254px; }
+.ga-flareflash { background-position: -156px -254px; }
+.ga-kbullet { background-position: -234px -254px; }
+.ga-periscope { background-position: -312px -254px; }
+.ga-shield { background-position: -390px -254px; }
+.ga-decoy { background-position: -468px -254px; }
+.ga-triphe { background-position: -546px -254px; }
+.ga-tripgas { background-position: -624px -254px; }
+.ga-tripinc { background-position: -702px -254px; }
+
+/* Melee -------------------------------------------------------------------- */
+/*
+.m-combat { background-position: 0 -351px; }
+.m-compact { background-position: -78px -351px; }
+.m-bedouin { background-position: -156px -351px; }
+.m-trench { background-position: -234px -351px; }
+.m-ustrench { background-position: -312px -351px; }
+.m-club { background-position: -390px -351px; }
+.m-spiked { background-position: -468px -351px; }
+.m-trenchmace { background-position: -546px -351px; }
+.m-bartek { background-position: -624px -351px; }
+.m-hatchet { background-position: -702px -351px; }
+.m-pickaxe { background-position: -780px -351px; }
+.m-shovel { background-position: -858px -351px; }
+.m-sawtooth { background-position: -936px -351px; }
+.m-nail { background-position: -1014px -351px; }
+.m-cogwheel { background-position: -1092px -351px; }
+.m-fleur { background-position: -1170px -351px; }
+.m-billhook { background-position: 0 -400px; }
+.m-kukri { background-position: -78px -400px; }
+.m-sabre { background-position: -156px -400px; }
+*/

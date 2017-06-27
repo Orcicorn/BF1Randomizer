@@ -4,10 +4,9 @@
     "twitter": "@orcicorn",
     "website": "https://orcicorn.com/bf1",
     "generated": {
-      "epoch": "1494266813",
-      "ISO8601": "2017-05-08T14:06:53-04:00",
-      "RFC2822": "Mon, 8 May 2017 14:06:53 -04:00"
-    },
+      "epoch": "1498590198",
+      "RFC2822": "Tue, 27 Jun 2017 19:03:15 GMT"
+    }
   },
   "classes": {
     "all": {
@@ -28,7 +27,7 @@
         ["GRAL03", "Incendiary Grenade", "base", "g-inc"],
         ["GRAL04", "Mini Grenade", "base", "g-mini"],
         ["GRAL05", "Smoke Grenade", "base", "g-smoke"],
-        ["GRAL06", "Light Anti-Tank Grenade", "g-at"]
+        ["GRAL06", "Light Anti-Tank Grenade", "base", "g-at"]
       ],
       "melee": [
         ["MEAL00", "Combat Knife", "base", "m-combat"],
@@ -38,7 +37,7 @@
         ["MEAL04", "US Trench Knife", "base", "m-ustrench"],
         ["MEAL05", "Club", "base", "m-club"],
         ["MEAL06", "Spiked Club", "base", "m-spiked"],
-        ["MEAL07", "Trench Mace", "base", "m-trench"],
+        ["MEAL07", "Trench Mace", "base", "m-trenchmace"],
         ["MEAL08", "Bartek Bludgeon", "puzzle", "m-bartek"],
         ["MEAL09", "Hatchet", "base", "m-hatchet"],
         ["MEAL10", "Pickaxe", "base", "m-pickaxe"],
@@ -102,9 +101,9 @@
         ["PRME03", "Mondragon Optical", "base", "p-mondragon"],
         ["PRME03", "Mondragon Storm", "base", "p-mondragon"],
         ["PRME03", "Mondragon Sniper", "base", "p-mondragon"],
-        ["PRME04", "Autoloading 8 .35 Factory", "p-autoloading"],
-        ["PRME04", "Autoloading 8 .35 Marksman", "p-autoloading"],
-        ["PRME04", "Autoloading 8 .35 Extended", "p-autoloading"],
+        ["PRME04", "Autoloading 8 35 Factory", "base", "p-autoloading"],
+        ["PRME04", "Autoloading 8 35 Marksman", "base", "p-autoloading"],
+        ["PRME04", "Autoloading 8 35 Extended", "base", "p-autoloading"],
         ["PRME05", "Selbstlader 1906 Factory", "unlock", "p-1906"],
         ["PRME05", "Selbstlader 1906 Sniper", "unlock", "p-1906"],
         ["PRME06", "RSC 1917 Optical", "tsnp", "p-rsc1917"],
@@ -134,9 +133,9 @@
         ["PRSU01", "M1909 Benet-Mercie Storm", "base", "p-benet"],
         ["PRSU01", "M1909 Benet-Mercie Optical", "base", "p-benet"],
         ["PRSU01", "M1909 Benet-Mercie Telescopic", "base", "p-benet"],
-        ["PRSU02", "Madsen MG Trench", "base", "p-madesen"],
-        ["PRSU02", "Madsen MG Storm", "base", "p-madesen"],
-        ["PRSU02", "Madsen MG Low Weight", "base", "p-madesen"],
+        ["PRSU02", "Madsen MG Trench", "base", "p-madsen"],
+        ["PRSU02", "Madsen MG Storm", "base", "p-madsen"],
+        ["PRSU02", "Madsen MG Low Weight", "base", "p-madsen"],
         ["PRSU03", "MG15 n.A. Suppressive", "base", "p-mg15"],
         ["PRSU03", "MG15 n.A. Storm", "base", "p-mg15"],
         ["PRSU03", "MG15 n.A. Low Weight", "base", "p-mg15"],
@@ -155,7 +154,7 @@
       ],
       "gadget": [
         ["GASU00", "Ammo Crate", "base", "ga-ammocrate"],
-        ["GASU01", "Ammo Pouch", "base", "ga-ammowpouch"],
+        ["GASU01", "Ammo Pouch", "base", "ga-ammopouch"],
         ["GASU02", "Mortar - AIR", "base", "ga-mortarair"],
         ["GASU02", "Mortar - HE", "base", "ga-mortarhe"],
         ["GASU03", "Repair Tool", "base", "ga-repair"],

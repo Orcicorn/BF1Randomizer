@@ -30,6 +30,15 @@ body .container:first-of-type {
     left: 0;
     top: 0;
     display: none;
+    cursor: pointer;
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+        transition: background 0.5s linear;
+        &:hover {
+            background: lighten(@popupBack,40);
+        }
+    }
     .container {
         width: 90%;
         background: @popupContainerBack;
@@ -85,11 +94,11 @@ body .container:first-of-type {
             top: -8px;
             text-transform: uppercase;
         }
-        &:active {
+        /*&:active {
             position: relative;
             top: 1px;
             left: 1px;
-        }
+        }*/
     }
     p {
         margin: 0;
@@ -98,6 +107,7 @@ body .container:first-of-type {
         line-height: 1.35em;
         color: @headerColor2;
         margin-bottom: 0.2em;
+        text-align: center;
     }
 }
 
@@ -124,10 +134,9 @@ body .container:first-of-type {
     font-weight: 700;
     width: 100%;
     cursor: pointer;
+    transition: background 0.25s linear;
     &:active {
-        position: relative;
-        top: 1px;
-        left: 1px;
+        background: lighten(@boxBack,10);
     }
     span {
         display: inline-block;
@@ -172,28 +181,7 @@ body .container:first-of-type {
 /*******************************************************************************
     ICONS/SPRITES
 *******************************************************************************/
-.icon {
-    background: url(@spriteIcons) top left no-repeat;
-    display: block;
-    &.class {
-        width: 48px;
-        height: 48px;
-        display: block;
-        &.assault { background-position: -5px -20px; }
-        &.medic {}
-        &.support {}
-        &.scout {}
-    }
-    &.weapon {
-        opacity: 0.8;
-        margin: 0 auto;
-        &.test1 { width: 253px; height: 43px;  background-position: -79px -4px; }
-        &.test2 { width: 78px;  height: 48px;  background-position: -374px -11px; }
-        &.test3 { width: 78px;  height: 48px;  background-position: -374px -11px; }
-        &.test4 { width: 78px;  height: 48px;  background-position: -374px -11px; }
-        &.test5 { width: 78px;  height: 48px;  background-position: -374px -11px; }
-    }
-}
+/* See "inc.icons.less" */
 
 /*******************************************************************************
     ADVERTISEMENT

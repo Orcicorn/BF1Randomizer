@@ -9,12 +9,13 @@ RewriteEngine On
 #Protected Directories
 RewriteRule ^(application/) - [F,L,NC]
 RewriteRule ^(assets/css/less) - [F,L,NC]
+RewriteRule ^(assets/images/source) - [F,L,NC]
 
 #Everything Redirects to index.html unless it exists
-#RewriteBase /
-#RewriteCond %{REQUEST_FILENAME} !-f
-#RewriteCond %{REQUEST_FILENAME} !-d
-#RewriteRule .* /index.html [L,R=302]
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* /index.html [L,R=302]
 
 #Outbound compression
 AddOutputFilterByType DEFLATE text/html
@@ -31,8 +32,8 @@ AddOutputFilterByType DEFLATE application/x-javascript
 #    Header set Cache-Control "max-age=2628000, public"
 #</filesMatch>
 
-#Cache PHP/HTML/XML documents for 1 hour
-<filesMatch "\.(php|htm|html|xml)$">
-    #Header set Cache-Control "max-age=7200, public"
+#Cache JSON Data & HTML Template for 1 Month
+<filesMatch "\.(html|json)$">
+#    Header set Cache-Control "max-age=2628000, public"
     Header set Cache-Control "max-age=1, public"
 </filesMatch>
