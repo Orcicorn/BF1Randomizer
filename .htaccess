@@ -10,6 +10,8 @@ ErrorDocument 404 https://orcicorn.com/bf1
 RewriteRule ^(application/) - [F,L,NC]
 RewriteRule ^(assets/css/less) - [F,L,NC]
 RewriteRule ^(assets/images/source) - [F,L,NC]
+RewriteRule ^(assets/js/global.js) - [F,L,NC]
+RewriteRule ^(assets/json/data.json) - [F,L,NC]
 
 #Everything Redirects to index.html unless it exists
 RewriteBase /

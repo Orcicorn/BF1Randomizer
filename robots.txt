@@ -1,2 +1,4 @@
 User-Agent: *
-Allow: /
+Disallow: /assets/images/source
+Disallow: /assets/js/global.js
+Disallow: /assets/js/data.json
