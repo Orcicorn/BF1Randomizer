@@ -7,6 +7,12 @@ body {
     color: @fntColor;
     font-size: @fntSize;
     padding: 8px 0 0 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 body .container:first-of-type {
     max-width: 600px;
@@ -20,7 +26,7 @@ body .container:first-of-type {
 /*******************************************************************************
     POP-UP CLASS SELECTOR
 *******************************************************************************/
-.popup.show { display: block;}
+.popup.show { display: block; }
 .popup {
     background: @popupBack;
     position: absolute;
@@ -91,7 +97,7 @@ body .container:first-of-type {
             padding: 0;
             letter-spacing: 0.05em;
             position: relative;
-            top: -8px;
+            top: -5px;
             text-transform: uppercase;
         }
         /*&:active {
@@ -134,10 +140,7 @@ body .container:first-of-type {
     font-weight: 700;
     width: 100%;
     cursor: pointer;
-    transition: background 0.25s linear;
-    &:active {
-        background: lighten(@boxBack,10);
-    }
+    &.touched { background: lighten(@boxBack, 20); }
     span {
         display: inline-block;
         margin-top: 1em;

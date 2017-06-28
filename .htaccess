@@ -3,8 +3,8 @@ Options -Indexes
 RewriteEngine On
 
 #Error Documents
-#ErrorDocument 403 https://orcicorn.com/bf1
-#ErrorDocument 404 https://orcicorn.com/bf1
+ErrorDocument 403 https://orcicorn.com/bf1
+ErrorDocument 404 https://orcicorn.com/bf1
 
 #Protected Directories
 RewriteRule ^(application/) - [F,L,NC]
@@ -22,18 +22,20 @@ AddOutputFilterByType DEFLATE text/html
 AddOutputFilterByType DEFLATE text/plain
 AddOutputFilterByType DEFLATE text/xml
 AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/json
 AddOutputFilterByType DEFLATE application/xml
 AddOutputFilterByType DEFLATE application/xhtml+xml
 AddOutputFilterByType DEFLATE application/javascript
 AddOutputFilterByType DEFLATE application/x-javascript
 
-#Cache Images & Stylesheets for 1 month
-#<filesMatch "\.(js|css|jpg|png|jpeg|gif|ico|svg)$">
-#    Header set Cache-Control "max-age=2628000, public"
-#</filesMatch>
+#Turn off ETags
+Header unset ETag
 
-#Cache JSON Data & HTML Template for 1 Month
-<filesMatch "\.(html|json)$">
-#    Header set Cache-Control "max-age=2628000, public"
-    Header set Cache-Control "max-age=1, public"
-</filesMatch>
+#Cache: Default everything to 1 Year
+#We're using ?v= tags for cache busting
+Header set Cache-Control "max-age=31536000"
+
+#Cache: Set an ETag for the index.html that matches version
+<Files "index.html">
+    Header set Cache-Control "max-age=2628000, public"
+</Files>
