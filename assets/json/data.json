@@ -4,8 +4,8 @@
     "twitter": "@orcicorn",
     "website": "https://orcicorn.com/bf1",
     "generated": {
-      "epoch": "1498590198",
-      "RFC2822": "Tue, 27 Jun 2017 19:03:15 GMT"
+      "epoch": "1502290550",
+      "RFC2822": "Wed, 09 Aug 2017 14:55:50 GMT"
     }
   },
   "classes": {
@@ -176,9 +176,9 @@
         ["PRSC02", "SMLE MKIII Marksman", "base", "p-smle"],
         ["PRSC02", "SMLE MKIII Carbine", "base", "p-smle"],
         ["PRSC02", "SMLE MKIII Infantry", "base", "p-smle"],
-        ["PRSC03", "Gewehr M.95 Marksman", "base", "p-gewehr95"],
-        ["PRSC03", "Gewehr M.95 Sniper", "base", "p-gewehr95"],
         ["PRSC03", "Gewehr M.95 Infantry", "base", "p-gewehr95"],
+        ["PRSC03", "Gewehr M.95 Marksman", "base", "p-gewehr95"],
+        ["PRSC03", "Gewehr M.95 Carbine", "base", "p-gewehr95"],
         ["PRSC04", "M1903 Marksman", "base", "p-m1903"],
         ["PRSC04", "M1903 Sniper", "base", "p-m1903"],
         ["PRSC04", "M1903 Experimental", "base", "p-m1903"],
