@@ -4,8 +4,8 @@
     "twitter": "@orcicorn",
     "website": "https://orcicorn.com/bf1",
     "generated": {
-      "epoch": "1502290550",
-      "RFC2822": "Wed, 09 Aug 2017 14:55:50 GMT"
+      "epoch": "1504639098",
+      "RFC2822": "Tue, 05 Sep 2017 19:18:18 GMT"
     }
   },
   "classes": {
@@ -17,7 +17,9 @@
         ["SEAL02", "Mle 1903", "base", "s-mle1903"],
         ["SEAL03", "No. 3 Revolver", "unlock", "s-no3revolver"],
         ["SEAL04", "C93", "unlock", "s-c93"],
-        ["SEAL05", "Kolibri", "unlock", "s-kolibri"]
+        ["SEAL05", "Kolibri", "unlock", "s-kolibri"],
+        ["SEAL06", "Nagant Revolver", "tsar", "s-nagant"],
+        ["SEAL07", "Obrez Pistol", "tsar", "s-obrez"]
       ],
       "gadget": [],
       "grenade": [
@@ -48,7 +50,10 @@
         ["MEAL15", "Trench Fleur", "tsnp", "m-fleur"],
         ["MEAL16", "Billhook", "puzzle", "m-billhook"],
         ["MEAL17", "Kukri", "puzzle", "m-kukri"],
-        ["MEAL18", "Sabre", "puzzle", "m-sabre"]
+        ["MEAL18", "Sabre", "puzzle", "m-sabre"],
+        ["MEAL19", "Cossack Dagger", "tsar", "m-cossack"],
+        ["MEAL20", "Dud Club", "tsar", "m-dud"],
+        ["MEAL21", "Arditi Dagger", "tsar", "m-arditi"]
       ]
     },
     "assault": {
@@ -71,7 +76,11 @@
         ["PRAS05", "Hellriegel 1915 Factory", "unlock", "p-hellriegel"],
         ["PRAS05", "Hellriegel 1915 Defensive", "unlock", "p-hellriegel"],
         ["PRAS06", "Sjogren Inerial Factory", "tsnp", "p-sjogren"],
-        ["PRAS07", "Ribeyrolles 1918 Factory", "tsnp", "p-ribeyrolles"]
+        ["PRAS07", "Ribeyrolles 1918 Factory", "tsnp", "p-ribeyrolles"],
+        ["PRAS08", "Model 1900 Factory ", "tsar", "p-1900"],
+        ["PRAS08", "Model 1900 Optical", "tsar", "p-1900"],
+        ["PRAS09", "SMG 08/18 Factory", "tsar", "p-0818"],
+        ["PRAS09", "SMG 08/18 Optical", "tsar", "p-0818"]
       ],
       "secondary": [
         ["SEAS00", "Gasser M1870","base", "s-gasser"],
@@ -107,7 +116,11 @@
         ["PRME05", "Selbstlader 1906 Factory", "unlock", "p-1906"],
         ["PRME05", "Selbstlader 1906 Sniper", "unlock", "p-1906"],
         ["PRME06", "RSC 1917 Optical", "tsnp", "p-rsc1917"],
-        ["PRME06", "RSC 1917 Factory", "tsnp", "p-rsc1917"]
+        ["PRME06", "RSC 1917 Factory", "tsnp", "p-rsc1917"],
+        ["PRME07", "Fedorov Avtomat Trench", "tsar", "p-fedorov"],
+        ["PRME07", "Fedorov Avtomat Optical", "tsar", "p-fedorov"],
+        ["PRME08", "General Liu Rifle Factory", "tsar", "p-lui"],
+        ["PRME08", "General Liu Rifle Optical", "tsar", "p-lui"]
       ],
       "secondary": [
         ["SEME00", "Auto Revolver", "base", "s-auto"],
@@ -145,7 +158,11 @@
         ["PRSU05", "Huot Automatic Low Weight", "unlock", "p-huot"],
         ["PRSU05", "Huot Automatic Optical", "unlock", "p-huot"],
         ["PRSU06", "Chauchat Low Weight", "tsnp", "p-chauchat"],
-        ["PRSU06", "Chauchat Telescopic", "tsnp", "p-chauchat"]
+        ["PRSU06", "Chauchat Telescopic", "tsnp", "p-chauchat"],
+        ["PRSU07", "Parabellum MG14/17 Low Weight", "tsar", "p-para"],
+        ["PRSU07", "Parabellum MG14/17 Suppressive", "tsar", "p-para"],
+        ["PRSU08", "Perino Model 1908 Low Weight", "tsar" , "p-perino"],
+        ["PRSU08", "Perino Model 1908 Defensive", "tsar", "p-perino"]
       ],
       "secondary": [
         ["SESU00", "Bull Dog Revolver", "base", "s-bulldog"],
@@ -185,7 +202,11 @@
         ["PRSC05", "Martini-Henry Infantry", "unlock", "p-martini"],
         ["PRSC05", "Martini-Henry Sniper", "unlock", "p-martini"],
         ["PRSC06", "Lebel Model 1886 Sniper", "tsnp", "p-lebel"],
-        ["PRSC06", "Lebel Model 1886 Infantry", "tsnp", "p-lebel"]
+        ["PRSC06", "Lebel Model 1886 Infantry", "tsnp", "p-lebel"],
+        ["PRSC07", "Mosin-Nagant M91 Infantry", "tsar", "p-m91"],
+        ["PRSC07", "Mosin-Nagant M91 Marksman", "tsar", "p-m91"],
+        ["PRSC08", "Vetterli-Vitali M1870/87 Infantry", "tsar", "p-vetterli"],
+        ["PRSC08", "Vetterli-Vitali M1870/87 Carbine", "tsar", "p-vetterli"]
       ],
       "secondary": [
         ["SESC00", "Bodeo 1889", "base", "s-bodeo"],

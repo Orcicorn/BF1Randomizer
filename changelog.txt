@@ -1,2 +1,9 @@
-28 JUNE 2017
-    - Release Candidate 1
+v1.1.0 :: September 5, 2017
+    - Support "In the Name of the Tsar" DLC
+
+v1.0.0 :: June 30, 2017
+    - Published Publicly
+
+v0.0.1-rc1 :: June 28, 2017
+    - Closed-Beta testing
+    - Supports Base through to "They Shall Not Pass" DLC

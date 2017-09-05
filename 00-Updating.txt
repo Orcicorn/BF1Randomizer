@@ -1,0 +1,31 @@
+Backgrounds:
+    /assets/css/inc.constants.less
+        bg.jpg?v=
+        bg2.jpg?v=
+
+Sprites
+    /assets/css/inc.constants.less
+        sprite.png?v=
+
+Stylesheets
+    index.html
+        style.css?v=
+
+JQuery
+    index.html
+        global.min.js?v=
+    If Adding new DLC
+        Top Row, add a tool tip that matches the Unlock Class
+        e.g.:  "tsar": "Unlocks through Name of the TSAR DLC"
+
+JSON Data
+    /assets/js/global(.min).js
+        var sJSON = 'assets/json/data.min.json?v=
+
+    /json/data(.min).json
+         "generated": {
+              "epoch": "000000000",
+              "RFC2822": "DAY, DD MON YYYY HH:MM:SS GMT"
+            }
+
+    Update index.html with new JS Version

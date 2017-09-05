@@ -3,14 +3,15 @@ $(document).ready(function() {
     //** GLOBALS ***************************************************************
     //**************************************************************************
     var bDebug = false;                                                         //Show Debug messages?
-    var sJSON = 'assets/json/data.min.json?v=20170809';                         //Path to JSON Data
+    var sJSON = 'assets/json/data.min.json?v=20170905';                         //Path to JSON Data
     var aClasses = ['assault','support','medic','scout'];                       //Static Classes
     var aData = "";                                                             //Stores JSON Data upon load
     var aPrevious = { class:  "nil", primary:"nil", secondary:"nil",            //Store IDs for Previously Used Items
         gadget1:"nil", gadget2:"nil", melee:"nil"};               //to ensure each pick is unique
     var aToolTips = { "unlock": "Unlocks through class achievements",
-        "tsnp":   "Unlocks through 'They Shall Not Pass' DLC",
-        "puzzle": "Unlocks through Battlepack Puzzles" }
+                      "puzzle": "Unlocks through Battlepack Puzzles",
+                      "tsnp":   "Unlocks through 'They Shall Not Pass' DLC",
+                      "tsar":   "Unlocks through 'In The Name of the Tsar' DLC"}
 
     //**************************************************************************
     //** PSUEDO-PUBLIC FUNCTIONS ***********************************************
