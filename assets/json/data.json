@@ -1,11 +1,10 @@
 {
   "meta": {
-    "email": "orc@orcicorn.com",
     "twitter": "@orcicorn",
     "website": "https://orcicorn.com/bf1",
     "generated": {
-      "epoch": "1504639098",
-      "RFC2822": "Tue, 05 Sep 2017 19:18:18 GMT"
+      "epoch": "1504711459",
+      "RFC2822": "Wed, 06 Sep 2017 15:24:18 GMT"
     }
   },
   "classes": {
@@ -52,7 +51,7 @@
         ["MEAL17", "Kukri", "puzzle", "m-kukri"],
         ["MEAL18", "Sabre", "puzzle", "m-sabre"],
         ["MEAL19", "Cossack Dagger", "tsar", "m-cossack"],
-        ["MEAL20", "Dud Club", "tsar", "m-dud"],
+        ["MEAL20", "Dud Club", "puzzle", "m-dud"],
         ["MEAL21", "Arditi Dagger", "tsar", "m-arditi"]
       ]
     },
