@@ -1,5 +1,9 @@
+v1.1.1 :: September 6, 2017
+    - Updated "Name of the Tsar" DLC Images with Native EA Icons
+
 v1.1.0 :: September 5, 2017
     - Support "In the Name of the Tsar" DLC
+    - Temporary Icons utilized through Screenshot cropping
 
 v1.0.0 :: June 30, 2017
     - Published Publicly
