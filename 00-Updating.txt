@@ -29,3 +29,6 @@ JSON Data
             }
 
     Update index.html with new JS Version
+
+Any Change:
+    Update last-modified tag in index.html
