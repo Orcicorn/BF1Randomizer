@@ -1,3 +1,6 @@
+v1.2.1 :: December 16, 2017
+    - Change Log & Contact lists now linked on index
+
 v1.2.0 :: December 11, 2017
     - Support "Rising Tides" DLC
 
