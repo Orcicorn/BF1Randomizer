@@ -30,5 +30,8 @@ JSON Data
 
     Update index.html with new JS Version
 
+Change Log
+    Update ?v=YYMMDDHHMM to Changelog.txt in Index.html Footer
+
 Any Change:
     Update last-modified tag in index.html
