@@ -3,8 +3,8 @@
     "twitter": "@orcicorn",
     "website": "https://orcicorn.com/bf1",
     "generated": {
-      "epoch": "1513028097",
-      "RFC2822": "Mon, 11 Dec 2017 21:30:00 GMT"
+      "epoch": "1519402202",
+      "RFC2822": "Fri, 23 Feb 2018 16:10:02 GMT"
     }
   },
   "classes": {
@@ -18,7 +18,8 @@
         ["SEAL04", "C93", "unlock", "s-c93"],
         ["SEAL05", "Kolibri", "unlock", "s-kolibri"],
         ["SEAL06", "Nagant Revolver", "tsar", "s-nagant"],
-        ["SEAL07", "Obrez Pistol", "tsar", "s-obrez"]
+        ["SEAL07", "Obrez Pistol", "tsar", "s-obrez"],
+        ["SEAL08", "Revolver Mk VI", "apoc", "s-mkvi"]
       ],
       "gadget": [],
       "grenade": [
@@ -56,7 +57,9 @@
         ["MEAL22", "Ottoman Flanged", "tide", "m-ottoman"],
         ["MEAL23", "Naval Cutlass", "tide", "m-naval"],
         ["MEAL24", "Grappling Hook", "tide", "m-grappling"],
-        ["MEAL25", "Russian Axe", "tide", "m-russian"]
+        ["MEAL25", "Russian Axe", "tide", "m-russian"],
+        ["MEAL26", "Meat Cleaver", "apoc", "m-meat"],
+        ["MEAL27", "Prybar Hatchet", "puzzle", "m-prybar"]
       ]
     },
     "assault": {
@@ -85,7 +88,9 @@
         ["PRAS09", "SMG 08/18 Factory", "tsar", "p-0818"],
         ["PRAS09", "SMG 08/18 Optical", "tsar", "p-0818"],
         ["PRAS10", "M1917 Trench Carbine", "tide", "p-m1917"],
-        ["PRAS11", "Mashinepistole M1912/P.16 Storm", "tide", "p-m1912"]
+        ["PRAS11", "Mashinepistole M1912/P.16 Storm", "tide", "p-m1912"],
+        ["PRAS12", "RSC SMG Factory", "apoc", "p-rscsmg"],
+        ["PRAS12", "RSC SMG Optical", "apoc", "p-rscsmg"]
       ],
       "secondary": [
         ["SEAS00", "Gasser M1870","base", "s-gasser"],
@@ -96,7 +101,8 @@
         ["GAAS00", "Dynamite", "base", "ga-dynamite"],
         ["GAAS01", "Anti-Tank Grenade", "base", "ga-atgrenade"],
         ["GAAS02", "Anti-Tank Mine", "base", "ga-mine"],
-        ["GAAS03", "AT Rocket Gun", "base", "ga-rocket"]
+        ["GAAS03", "AT Rocket Gun", "base", "ga-rocket"],
+        ["GAAS03", "AA Rocket Gun", "base", "ga-rocket2"]
       ],
       "grenade": [],
       "melee": []
@@ -127,7 +133,9 @@
         ["PRME08", "General Liu Rifle Factory", "tsar", "p-lui"],
         ["PRME08", "General Liu Rifle Optical", "tsar", "p-lui"],
         ["PRME09", "Farquhar-Hill Storm", "tide", "p-farquhar"],
-        ["PRME09", "Farquhar-Hill Optical", "tide", "p-farquhar"]
+        ["PRME09", "Farquhar-Hill Optical", "tide", "p-farquhar"],
+        ["PRME10", "Howell Automatic Factory", "apoc", "p-howell"],
+        ["PRME10", "Howell Automatic Sniper", "apoc", "p-howell"]
       ],
       "secondary": [
         ["SEME00", "Auto Revolver", "base", "s-auto"],
@@ -171,7 +179,9 @@
         ["PRSU08", "Perino Model 1908 Low Weight", "tsar" , "p-perino"],
         ["PRSU08", "Perino Model 1908 Defensive", "tsar", "p-perino"],
         ["PRSU09", "M1917 MG Low Weight", "tide", "p-m1917mg"],
-        ["PRSU09", "M1917 MG Telescopic", "tide", "p-m1917mg"]
+        ["PRSU09", "M1917 MG Telescopic", "tide", "p-m1917mg"],
+        ["PRSU10", "LMG 08/18 Low Weight", "apoc", "p-0818lmg"],
+        ["PRSU10", "LMG 08/18 Suppressive", "apoc", "p-0818lmg"]
       ],
       "secondary": [
         ["SESU00", "Bull Dog Revolver", "base", "s-bulldog"],
@@ -217,7 +227,9 @@
         ["PRSC08", "Vetterli-Vitali M1870/87 Infantry", "tsar", "p-vetterli"],
         ["PRSC08", "Vetterli-Vitali M1870/87 Carbine", "tsar", "p-vetterli"],
         ["PRSC09", "Type 38 Arisaka Infantry", "tide", "p-arisaka"],
-        ["PRSC10", "Carcano M91 Carbine", "tide", "p-carcano"]
+        ["PRSC10", "Carcano M91 Carbine", "tide", "p-carcano"],
+        ["PRSC11", "Ross Mk III Marksman", "apoc", "p-ross"],
+        ["PRSC12", "M1917 Enfield Infantry", "apoc", "p-enfield"]
       ],
       "secondary": [
         ["SESC00", "Bodeo 1889", "base", "s-bodeo"],

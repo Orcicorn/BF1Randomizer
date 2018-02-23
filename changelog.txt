@@ -1,3 +1,10 @@
+v1.3.0 :: February 23, 2018
+    - Support "Apocalypse" DLC
+    - Moved Melee Icons up a row  (Wasted space)
+    - Added another Row of Primary Weapons above Row 1 (aka: Row 0, Utilize space)
+    - Sprite changes based around the assumption that this will be the last set
+      of BF1 DLC additions unless BF2018 is a flop.
+
 v1.2.1 :: December 16, 2017
     - Change Log & Contact lists now linked on index
 
