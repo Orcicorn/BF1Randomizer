@@ -1,3 +1,23 @@
+v1.3.1 :: July 23, 2018
+    - Added Battlefield V Pre-Order Weapons (Shows with BFV flag)
+      * M1911 A1 (Universal Pistol)
+      * Fedorov-Degtyarev (Medic Rifle)
+      * Annihilator (Thompson : Assault Rifle)
+      * Bar M1918 A2 (Support)
+      * Mosin-Nagant M38 Carbine (Scout)
+    - Added June's "Shock Operations" Weapons
+      * M1911 Silent (Universal Pistol)
+      * Burton LMR (Support Rifle)
+      * C96 Carbine (Support [Former Tank/Pilot weapon])
+      * P08 Artillerie (Support [Former Tank/Pilot weapon])
+      * Pieper Revolving Carbine (Support [Former Tank/Pilot weapon])
+      * M1911 Extended (Support [Former Tank/Pilot weapon])
+      * MLE 1903 Etended (Support [Former Tank/Pilot weapon])
+      * C93 Carbine  (Support [Former Tank/Pilot weapon])
+      * Annihilator Storm (Assault)
+      * Frommer Stop (Assault [Former Tank/Pilot weapon])
+      * Sawed0Off Shotgun (Assault [Former Tank/Pilot weapon])
+
 v1.3.0 :: February 23, 2018
     - Support "Apocalypse" DLC
     - Moved Melee Icons up a row  (Wasted space)

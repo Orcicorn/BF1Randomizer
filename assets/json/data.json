@@ -3,8 +3,8 @@
     "twitter": "@orcicorn",
     "website": "https://orcicorn.com/bf1",
     "generated": {
-      "epoch": "1519402202",
-      "RFC2822": "Fri, 23 Feb 2018 16:10:02 GMT"
+      "epoch": "1532373785",
+      "RFC2822": "Mon, 23 Jul 2018 19:23:05 GMT"
     }
   },
   "classes": {
@@ -12,6 +12,7 @@
       "primary": [],
       "secondary": [
         ["SEAL00", "M1911", "base", "s-m1911"],
+        ["SEAL00", "M1911 Silent", "base", "s-m1911"],
         ["SEAL01", "P08 Pistol", "base", "s-p08"],
         ["SEAL02", "Mle 1903", "base", "s-mle1903"],
         ["SEAL03", "No. 3 Revolver", "unlock", "s-no3revolver"],
@@ -19,7 +20,8 @@
         ["SEAL05", "Kolibri", "unlock", "s-kolibri"],
         ["SEAL06", "Nagant Revolver", "tsar", "s-nagant"],
         ["SEAL07", "Obrez Pistol", "tsar", "s-obrez"],
-        ["SEAL08", "Revolver Mk VI", "apoc", "s-mkvi"]
+        ["SEAL08", "Revolver Mk VI", "apoc", "s-mkvi"],
+        ["SEAL09", "M1911A1", "bfv", "s-m1911"]
       ],
       "gadget": [],
       "grenade": [
@@ -90,7 +92,11 @@
         ["PRAS10", "M1917 Trench Carbine", "tide", "p-m1917"],
         ["PRAS11", "Mashinepistole M1912/P.16 Storm", "tide", "p-m1912"],
         ["PRAS12", "RSC SMG Factory", "apoc", "p-rscsmg"],
-        ["PRAS12", "RSC SMG Optical", "apoc", "p-rscsmg"]
+        ["PRAS12", "RSC SMG Optical", "apoc", "p-rscsmg"],
+        ["PRAS13", "Annihilator", "bfv", "p-m1919"],
+        ["PRAS13", "Annihilator Storm", "base", "p-m1919"],
+        ["PRAS14", "Frommer Auto Stop", "base", "p-frommer"],
+        ["PRAS15", "Sawed-Off Shotgun", "base", "p-sawed"]
       ],
       "secondary": [
         ["SEAS00", "Gasser M1870","base", "s-gasser"],
@@ -135,7 +141,8 @@
         ["PRME09", "Farquhar-Hill Storm", "tide", "p-farquhar"],
         ["PRME09", "Farquhar-Hill Optical", "tide", "p-farquhar"],
         ["PRME10", "Howell Automatic Factory", "apoc", "p-howell"],
-        ["PRME10", "Howell Automatic Sniper", "apoc", "p-howell"]
+        ["PRME10", "Howell Automatic Sniper", "apoc", "p-howell"],
+        ["PRME11", "Fedorov-Degtyarev", "bfv", "p-fedodeg"]
       ],
       "secondary": [
         ["SEME00", "Auto Revolver", "base", "s-auto"],
@@ -181,7 +188,15 @@
         ["PRSU09", "M1917 MG Low Weight", "tide", "p-m1917mg"],
         ["PRSU09", "M1917 MG Telescopic", "tide", "p-m1917mg"],
         ["PRSU10", "LMG 08/18 Low Weight", "apoc", "p-0818lmg"],
-        ["PRSU10", "LMG 08/18 Suppressive", "apoc", "p-0818lmg"]
+        ["PRSU10", "LMG 08/18 Suppressive", "apoc", "p-0818lmg"],
+        ["PRSU11", "BAR M1918 A2", "bfv", "p-bar"],
+        ["PRSU12", "Burton LMR", "base", "p-burton"],
+        ["PRSU13", "C96 Carbine", "base", "p-c96c"],
+        ["PRSU14", "P08 Artillerie", "base", "p-p08a"],
+        ["PRSU15", "Pieper Revolving Carbine", "base", "p-pieper"],
+        ["PRSU16", "M1911 Extended", "base", "p-m1911e"],
+        ["PRSU17", "MLE 1903 Extended", "base", "p-mle1903"],
+        ["PRSU18", "C93 Carbine", "base", "p-c93c"]
       ],
       "secondary": [
         ["SESU00", "Bull Dog Revolver", "base", "s-bulldog"],
@@ -229,7 +244,8 @@
         ["PRSC09", "Type 38 Arisaka Infantry", "tide", "p-arisaka"],
         ["PRSC10", "Carcano M91 Carbine", "tide", "p-carcano"],
         ["PRSC11", "Ross Mk III Marksman", "apoc", "p-ross"],
-        ["PRSC12", "M1917 Enfield Infantry", "apoc", "p-enfield"]
+        ["PRSC12", "M1917 Enfield Infantry", "apoc", "p-enfield"],
+        ["PRSC13", "Mosin-Nagant M38 Carbine", "bfv", "p-m91"]
       ],
       "secondary": [
         ["SESC00", "Bodeo 1889", "base", "s-bodeo"],

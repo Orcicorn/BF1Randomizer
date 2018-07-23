@@ -3,7 +3,7 @@ $(document).ready(function() {
     //** GLOBALS ***************************************************************
     //**************************************************************************
     var bDebug = false;                                                         //Show Debug messages?
-    var sJSON = 'assets/json/data.min.json?v=20180223';                         //Path to JSON Data
+    var sJSON = 'assets/json/data.min.json?v=201807231523';                     //Path to JSON Data
     var aClasses = ['assault','support','medic','scout'];                       //Static Classes
     var aData = "";                                                             //Stores JSON Data upon load
     var aPrevious = { class:  "nil", primary:"nil", secondary:"nil",            //Store IDs for Previously Used Items
@@ -12,7 +12,9 @@ $(document).ready(function() {
                       "puzzle": "Unlocks through Battlepack Puzzles",
                       "tsnp":   "Unlocks through 'They Shall Not Pass' DLC",
                       "tsar":   "Unlocks through 'In The Name of the Tsar' DLC",
-                      "apoc":   "Unlocks through 'Apocalypse DLC"}
+                      "tide":   "Unlocks through 'Turning Tides' DLC",
+                      "apoc":   "Unlocks through 'Apocalypse DLC",
+                      "bfv":    "Unlocks with Battlefield V Pre-Order"}
 
     //**************************************************************************
     //** PSUEDO-PUBLIC FUNCTIONS ***********************************************
